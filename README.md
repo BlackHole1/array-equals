@@ -6,10 +6,10 @@
 
 ``` bash
 # Install with npm
-$ npm install array-equals --save
+$ npm install @black_hole/array-equals --save
 
 # Install with yarn
-$ yarn add array-equals
+$ yarn add @black_hole/array-equals
 ```
 
 ## Usage
@@ -65,7 +65,7 @@ likeArr(1, 2, 3) // => true
 
 | **Commits** | **Contributor** | 
 | --- | --- |
-| 3 | [Black-Hole](https://github.com/BlackHole1) |
+| 5 | [Black-Hole](https://github.com/BlackHole1) |
 
 ## Author
 

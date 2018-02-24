@@ -1,6 +1,6 @@
 {
-  "name": "array-equals",
-  "version": "1.0.0",
+  "name": "@black_hole/array-equals",
+  "version": "1.0.1",
   "description": "check if two arrays are equal",
   "main": "index.js",
   "scripts": {

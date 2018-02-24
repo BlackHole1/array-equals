@@ -1,6 +1,6 @@
 # Array-equals
 
-[![npm](https://img.shields.io/npm/dy/array-equals.svg)](https://www.npmjs.com/package/array-equals) [![npm](https://img.shields.io/github/issues/BlackHole1/array-equals.svg)](https://github.com/BlackHole1/array-equals) [![npm](https://img.shields.io/github/forks/BlackHole1/array-equals.svg)](https://github.com/BlackHole1/array-equals) [![npm](https://img.shields.io/github/stars/BlackHole1/array-equals.svg)](https://github.com/BlackHole1/array-equals) [![npm](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/BlackHole1/array-equals)
+[![npm](https://img.shields.io/npm/dy/@black_hole/array-equals.svg)](https://www.npmjs.com/package/@black_hole/array-equals) [![npm](https://img.shields.io/github/issues/BlackHole1/array-equals.svg)](https://github.com/BlackHole1/array-equals) [![npm](https://img.shields.io/github/forks/BlackHole1/array-equals.svg)](https://github.com/BlackHole1/array-equals) [![npm](https://img.shields.io/github/stars/BlackHole1/array-equals.svg)](https://github.com/BlackHole1/array-equals) [![npm](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/BlackHole1/array-equals)
 
 ## install
 
@@ -16,7 +16,7 @@ $ yarn add array-equals
 
 Two arrays are equal
 ```javascript
-let arrEquals = require('array-equals')
+let arrEquals = require('@black_hole/array-equals')
 
 let arr1 = [1, 2, 3]
 let arr2 = [1, 2, 3]
@@ -25,7 +25,7 @@ let result = arrEquals(arr1, arr2) // => true
 
 Two arrays are not equal
 ```javascript
-let arrEquals = require('array-equals')
+let arrEquals = require('@black_hole/array-equals')
 
 let arr1 = [1, 2, 3]
 let arr2 = [1, 2, 4]
@@ -34,7 +34,7 @@ let result = arrEquals(arr1, arr2) // => false
 
 Arrays of different lengths are not equal
 ```javascript
-let arrEquals = require('array-equals')
+let arrEquals = require('@black_hole/array-equals')
 
 let arr1 = [1, 2, 3]
 let arr2 = [1, 2, 3, 4]
@@ -43,7 +43,7 @@ let result = arrEquals(arr1, arr2) // => false
 
 Multidimensional array are equal
 ```javascript
-let arrEquals = require('array-equals')
+let arrEquals = require('@black_hole/array-equals')
 
 let arr1 = [1, 2, 3, [4, 5, 6]]
 let arr2 = [1, 2, 3, [4, 5, 6]]
@@ -52,7 +52,7 @@ let result = arrEquals(arr1, arr2) // => true
 
 Arguments(like-Array) are equal
 ```javascript
-let arrEquals = require('array-equals')
+let arrEquals = require('@black_hole/array-equals')
 
 function likeArr () {
     let arr2 = [1, 2, 3]

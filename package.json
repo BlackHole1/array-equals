@@ -1,0 +1,29 @@
+{
+  "name": "array-equals",
+  "version": "1.0.0",
+  "description": "check if two arrays are equal",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "homepage": "https://github.com/BlackHole1/array-equals#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/BlackHole1/array-equals.git"
+  },
+  "keywords": [
+    "array",
+    "array-equal",
+    "array-equals",
+    "arr-equal",
+    "arr-equals"
+  ],
+  "author": "Black-Hole <158blackhole@gmail.com> (http://bugs.cc/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BlackHole1/array-equals/issues"
+  },
+  "dependencies": {
+    "mocha": "^5.0.1"
+  }
+}

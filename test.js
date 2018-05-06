@@ -55,3 +55,17 @@ describe('Arguments(like-Array)', () => {
     assert.equal(result, false)
   })
 })
+
+describe('Unforeseen circumstances', () => {
+  it('There are no second parameters', () => {
+    let arr1 = '123'
+    let result = arrEquals(arr1)
+    assert.equal(result, false)
+  })
+  it('first parameter not is Array', () => {
+    let arr1 = '123'
+    let arr2 = [1, 2, 3]
+    let result = arrEquals(arr1, arr2)
+    assert.equal(result, false)
+  })
+})

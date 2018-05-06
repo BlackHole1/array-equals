@@ -3,9 +3,7 @@
 [![Node Version](https://img.shields.io/badge/node.js-%3E=_6-green.svg)](https://travis-ci.org/BlackHole1/array-equals)
 [![Build Status](https://travis-ci.org/BlackHole1/array-equals.svg?branch=master)](https://travis-ci.org/BlackHole1/array-equals)
 [![Coverage Status](https://coveralls.io/repos/github/BlackHole1/array-equals/badge.svg?branch=master)](https://coveralls.io/github/BlackHole1/array-equals?branch=master)
-[![Npm Downlaod](https://img.shields.io/npm/dy/array-equals.svg)](https://www.npmjs.com/package/array-equals)
-
-[![NPM](https://nodei.co/npm/array-equals.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/array-equals/)
+[![Npm Downlaod](https://img.shields.io/npm/dy/@black_hole/array-equals.svg)](https://www.npmjs.com/package/array-equals)
 
 ## install
 

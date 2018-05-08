@@ -64,6 +64,21 @@ function likeArr () {
 likeArr(1, 2, 3) // => true
 ```
 
+Depth judgment
+```javascript
+let arrEquals = require('@black_hole/array-equals')
+
+let arr1 = [1, {
+    'a': 1,
+    'b': ['x', null, -0]
+}]
+let arr2 = [1, {
+    'a': 1,
+    'b': ['x', null, 0]
+}]
+let result = arrEquals(arr1, arr2) // => false
+```
+
 ## Contributing
 
 | **Commits** | **Contributor** | 
